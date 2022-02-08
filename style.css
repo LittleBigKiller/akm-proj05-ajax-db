@@ -1,0 +1,84 @@
+* {
+    background-color: #000000;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    text-align: center;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+}
+
+#cont {
+    /* width: 720px;
+    height: 400px;
+    overflow: hidden scroll; */
+    margin: 10px 0;
+}
+
+#cont table {
+    width: 700px;
+    padding: 5px;
+    border: 2px solid #CF2F2F;
+    background-color: #7F2F2F;
+}
+
+#cont th {
+    width: 50px;
+    padding: 5px;
+    border: 2px solid #CF2FCF;
+    background-color: #7F2F7F;
+}
+
+#cont td {
+    width: 50px;
+    padding: 5px;
+    border: 2px solid #CFCF2F;
+    background-color: #7F7F2F;
+}
+
+#cont td input {
+    width: 50px;
+}
+
+.delButton {
+    width: 20px;
+    height: 20px;
+    background-image: url('gfx/u.gif');
+    background-size: 100%;
+}
+
+.modButton {
+    width: 20px;
+    height: 20px;
+    background-image: url('gfx/faja.png');
+    background-size: 100%;
+}
+
+#captcha-cont {
+    width: 700px;
+    padding: 5px;
+    border: 2px solid #2FCF2F;
+    background-color: #2F7F2F;
+}
+
+#ctrls-cont {
+    width: 700px;
+    padding: 5px;
+    border: 2px solid #2FCFCF;
+    background-color: #2F7F7F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ctrls td {
+    border: 2px solid #2FCFCF !important;
+    background-color: #2F7F7F !important;
+}
+
+.ctrls td * {
+    width: 100%;
+}
